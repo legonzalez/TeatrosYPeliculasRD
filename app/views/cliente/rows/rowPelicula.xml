@@ -1,0 +1,10 @@
+<Alloy>
+	<TableViewRow modelId="" class="row" id="filaPelicula" click="verDetalle">
+		<ImageView class="left" id="leftImage"/>
+		<Label class="title" id="titulo"/>
+		<Label class="subtitle" id="duracion"/>
+		<ImageView class="stars" id="stars"/>
+		<Label class="votos" id="votos"/>
+		<ImageView class="right" id="rightImage"/>
+	</TableViewRow>
+</Alloy>

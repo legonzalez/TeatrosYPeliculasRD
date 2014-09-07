@@ -1,0 +1,9 @@
+<Alloy>
+	<Tab title="" icon="/images/obras.png">
+		<Window title="Obras">
+			<Label class="titulo">Obras</Label>
+			<Label class="tituloError">No hay Datos por el momento</Label>
+			<TableView id="theTable"></TableView>
+		</Window>
+	</Tab>
+</Alloy>

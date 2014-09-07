@@ -1,0 +1,25 @@
+<Alloy>
+	<TableViewRow modelId="" class="row" id="filaCine">
+		<Label class="title" id="nombre"/>
+		<View id="tblTandas">
+			<View id="tblTandasHeader">
+				<View class="tblTandasColunma"><Label>Lun.</Label></View>
+				<View class="tblTandasColunma"><Label>Mar.</Label></View>
+				<View class="tblTandasColunma"><Label>Mier.</Label></View>
+				<View class="tblTandasColunma"><Label>Jue.</Label></View>
+				<View class="tblTandasColunma"><Label>Vie.</Label></View>
+				<View class="tblTandasColunma"><Label>Sab.</Label></View>
+				<View class="tblTandasColunma"><Label>Dom.</Label></View>
+			</View>
+			<View id="tblTandasContenido">
+				<View class="tblTandasColunma"><Label id="lun"/></View>
+				<View class="tblTandasColunma"><Label id="mar"/></View>
+				<View class="tblTandasColunma"><Label id="mier"/></View>
+				<View class="tblTandasColunma"><Label id="jue"/></View>
+				<View class="tblTandasColunma"><Label id="vie"/></View>
+				<View class="tblTandasColunma"><Label id="sab"/></View>
+				<View class="tblTandasColunma"><Label id="dom"/></View>
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

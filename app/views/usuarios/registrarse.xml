@@ -1,0 +1,34 @@
+<Alloy>
+	<Window id="login" modelId="" >
+		<ScrollView id="scrollViewTop">
+			<Label class="titulo" id="lblTitulo">Registrarse</Label>
+			<View class="campo" id ="campoUsuario">
+				<Label class="lbl" >Usuario:</Label>
+				<TextField class="txt" id="txtUsuario"></TextField>
+			</View>
+			<View class="campo" id ="campoClave">
+				<Label class="lbl">Clave:</Label>
+				<TextField class="txt" id="txtClave" passwordMask="true"></TextField>
+			</View>
+			<View class="campo" id ="campoReClave">
+				<Label class="lbl">Repetir Clave:</Label>
+				<TextField class="txt" id="txtRepetirClave" passwordMask="true"></TextField>
+			</View>
+			<View class="campo" id ="campoNombre">
+				<Label class="lbl">Nombre:</Label>
+				<TextField class="txt" id="txtNombre"></TextField>
+			</View>
+			<View class="campo" id ="campoApellido">
+				<Label class="lbl">Apellido:</Label>
+				<TextField class="txt" id="txtApellido"></TextField>
+			</View>
+			<View class="campo" id ="campoEmail">
+				<Label class="lbl">Email:</Label>
+				<TextField class="txt" id="txtEmail"></TextField>
+			</View>
+			<View class="campo" id ="campoBtns">
+				<Button id="btnRegistrarse">Registrarse</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

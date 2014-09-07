@@ -1,0 +1,80 @@
+".msgError":{
+	color: "red",
+},
+".vbox":{
+	layout: "vertical"
+},
+".hbox":{
+	layout: "horizontal"
+},
+".titulo":{
+	top :10,
+	left:"10%",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#3300CC",
+	font: {
+		fontSize: 22,
+		fontFamily: 'Helvetica Neue',
+		fontStyle:'italic'
+	},
+	
+},
+".tituloError":{
+	top :70,
+	left:"10%",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "red",
+	font: {
+		fontSize: 22,
+		fontFamily: 'Helvetica Neue',
+		fontStyle:'italic'
+	},
+	
+},
+"Window": {
+	backgroundColor: "#fff"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+},
+".btnEnviar":{
+	color: "#FFFFFF",
+	backgroundColor:"#FF0000"
+	
+},
+".btnVerde":{
+	color: "#FFFFFF",
+	backgroundColor:"#006600"
+	
+},
+".container": {
+	backgroundColor:"transparent",
+	backgroundImage:'gradientBackground.png'
+},
+"#theTable": {
+	width:'90%',
+	height:'85%',
+	top:45,
+	backgroundColor:'transparent'
+},
+".linediv":{
+	width:"100%",
+	height:3,
+	backgroundColor:'#303030'
+},
+".row": {
+	backgroundImage:'/images/middleRow.png',
+	backgroundSelectedImage:'/images/middleRowSelected.png',
+	backgroundColor:'transparent',
+	height:95
+}
+

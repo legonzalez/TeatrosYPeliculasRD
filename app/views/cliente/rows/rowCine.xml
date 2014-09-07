@@ -1,0 +1,7 @@
+<Alloy>
+	<TableViewRow modelId="" class="row" id="filaCine">
+		<Label class="title" id="nombre"/>
+		<Label class="telefono" id="telefono"/>
+		<Label class="subtitle" id="direccion"/>
+	</TableViewRow>
+</Alloy>

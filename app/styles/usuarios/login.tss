@@ -1,0 +1,38 @@
+"#login":{
+	height:300
+}
+".campo":{
+	width: "100%",
+	height:40,
+	layout:"horizontal"
+},
+".lbl":{
+	width: "30%",
+	height: Ti.UI.SIZE	
+},
+".txt":{
+	width: "70%",
+	height: Ti.UI.SIZE	
+},
+"Label": {
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'left'
+},
+"#campoUsuario":{
+	top:50,
+	left:20
+},
+"#campoClave":{
+	top:90,
+	left:20
+},
+"#campoBtns":{
+	top:140,
+	left:20
+},"#lblTitulo":{
+	top:30
+}

@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="nosotros" modelId="" >
+		<Label class="titulo" id="lblTitulo">Sobre nosotros</Label>
+		<View class="campo">
+			<Label class="lbl"> Información Sobre nosotros</Label>
+		</View>
+		
+	</Window>
+</Alloy>

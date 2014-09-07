@@ -1,0 +1,7 @@
+<Alloy>
+	<TableViewRow modelId="" class="row" id="filaObra">
+		<ImageView class="left" id="leftImage" image="/images/portadas/default.jpg"/>
+		<Label class="title" id="titulo">Hércules. El origen de la leyenda</Label>
+		<Label id="horarios"/>
+	</TableViewRow>
+</Alloy>

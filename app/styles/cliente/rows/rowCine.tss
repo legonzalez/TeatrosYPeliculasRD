@@ -1,0 +1,36 @@
+".title": {
+	font:{
+		fontSize:16,
+		fontWeight:'bold'
+	},
+	color:'black',
+	top:10,
+	left:10,
+	height:Ti.UI.SIZE
+},
+".subtitle": {
+	font:{
+		fontSize:13
+	},
+	color:'black',
+	top:50,
+	left:10,
+	right:5,
+	height:Ti.UI.SIZE
+},
+".telefono":{
+		font:{
+		fontSize:14
+	},
+	color:'black',
+	top:30,
+	left:10,
+	height:Ti.UI.SIZE
+},"Label": {
+	textAlign: 'left'
+},
+".row": {
+	height:115
+}
+
+

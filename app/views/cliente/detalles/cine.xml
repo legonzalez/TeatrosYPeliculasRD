@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="detalleDeCine" modelId="" title="TeatrosYPeliculasRD">
+		<Label class="title" id="nombre"/>
+		<Label class="telefono" id="telefono"/>
+		<Label class="subtitle" id="direccion"/>
+		<Label class="msgError" id="noHayTandas">Disculpe, este Cine no tiene Películas en cartelera</Label>
+		<TableView id="tblPeliculas"/> 
+	</Window>
+</Alloy>

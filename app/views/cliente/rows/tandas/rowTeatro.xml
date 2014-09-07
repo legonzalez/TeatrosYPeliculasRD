@@ -1,0 +1,6 @@
+<Alloy>
+	<TableViewRow modelId="" class="row" id="filaTeatro">
+		<Label class="title" id="nombre"/>
+		<Label id="horarios"/>
+	</TableViewRow>
+</Alloy>

@@ -1,0 +1,52 @@
+
+".row": {
+	height:95
+},
+".left": {
+	height:80,
+	width:64,
+	top:10,
+	left:8
+},
+".stars":{
+	height:25,
+	width:120,
+	top:60,
+	left:75
+},
+".votos":{
+	font:{
+		fontSize:14,
+	},
+	color:'black',
+	top:65,
+	left:200
+},
+".right": {
+	image:'/images/notificationBadge.png',
+	height:22,
+	width:25,
+	top:40,
+	right:5,
+	myImage:'blue'
+},
+".title": {
+	font:{
+		fontSize:16,
+		fontWeight:'bold'
+	},
+	color:'black',
+	top:20,
+	left:75,
+	height:Ti.UI.SIZE
+},
+".subtitle": {
+	font:{
+		fontSize:13,
+		fontWeight:'bold'
+	},
+	color:'black',
+	top:42,
+	left:75,
+	height:Ti.UI.SIZE
+}

@@ -1,0 +1,220 @@
+".detailHeader":{
+	top: 0,
+	left: 10,
+	right: 10,
+	width: Ti.UI.SIZE,
+	height: 180
+},
+".left":{
+	height: 160,
+	width: 115,
+	top: 10,
+	left: 10
+},
+".title": {
+	font:{
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	color: 'black',
+	top: 20,
+	left: 135,
+	textAlign: 'left',
+	height: Ti.UI.SIZE
+},
+".subtitle": {
+	font:{
+		fontSize: 15,
+		fontWeight: 'bold'
+	},
+	color: 'black',
+	top: 70,
+	left: 135,
+	height: Ti.UI.SIZE
+},
+".subtitle2": {
+	font:{
+		fontSize: 15,
+		fontWeight: 'bold'
+	},
+	color: 'black',
+	top: 100,
+	left: 135,
+	height: Ti.UI.SIZE
+},
+".stars":{
+	height: 35,
+	width: 120,
+	top: 130,
+	left: 135
+},
+".votos":{
+	font:{
+		fontSize: 14
+	},
+	color: 'black',
+	top: 140,
+	left: 255
+},
+".detailActions":{
+	top: 180,
+	left: 10,
+	right: 10,
+	width: Ti.UI.SIZE,
+	height: 60,
+	layout:'horizontal'
+},
+".detailDescription":{
+	top: 220,
+	left: 10,
+	right: 10,
+	width: Ti.UI.SIZE,
+	height: 270
+},
+".lblSinopsis":{
+	top: 25,
+	left: 10,
+	textAlign: 'left',
+	width: Ti.UI.SIZE,
+	height: 30
+},
+"#sinopsis":{
+	top: 60,
+	width: Ti.UI.SIZE,
+	height: 200
+},
+"#nuevoComentarioVisitante":{
+	top: 5,
+	left: 10,
+	right: 10,
+	width: Ti.UI.SIZE,
+	height: 160,
+	backgroundColor: '#F8F8F8'
+},
+"#lblMsjVisitante":{
+	top: 10,
+	left: 10,
+	right: 10,
+	textAlign: 'left',
+	font:{
+		fontSize: 17
+	},
+	color: '#FF3300',
+	width: Ti.UI.SIZE,
+	height: 60
+},
+"#btnLoginFromComentarios":{
+	left: 10,
+	top: 75,
+	width: 60,
+	height: Ti.UI.SIZE
+},
+"#btnRegistrarteFromComentarios":{
+	left: 80,
+	top: 75,
+	width: 100,
+	height: Ti.UI.SIZE
+},
+"#nuevoComentarioUsuario":{
+	top: 5,
+	left: 10,
+	right: 10,
+	width: Ti.UI.SIZE,
+	height: 300
+},
+"#lblComentariosBottom":{
+	top: 130
+},
+"#lblComentariosTop":{
+	top: 5
+},
+".lblComentarios":{
+	left: 10,
+	textAlign: 'left',
+	font:{
+		fontSize: 17
+	},
+	color: '#00CCFF',
+	width: Ti.UI.SIZE,
+	height: 30
+},
+"#lblNombreUsuario":{
+	top: 35,
+	left: 10,
+	textAlign: 'left',
+	width: Ti.UI.SIZE,
+	height: 30
+},
+"#txtComentario":{
+	top: 65,
+	width: 300,
+	height: 150
+},
+"#btnComentar":{
+	left: 5,
+	top: 220,
+	width: 100,
+	height: 35
+},
+"#votacion":{
+	left: 110,
+	top: 220,
+	width: Ti.UI.SIZE,
+	height: 35	
+},
+"#btnNuevoComentario":{
+	left: 10,
+	top: 30,
+	width: 100,
+	height: 35
+},
+"#btnVerDetalle":{
+	left: 115,
+	top: 30,
+	width: 150,
+	height: 40
+},
+"#tblComentarios":{
+	top:200,
+	
+},
+"#scrollViewTop":{
+	top:0,
+	showVerticalScrollIndicator:"true", 
+	height: '100%',
+    contentHeight:'auto',
+	width:"100%"
+},
+"#seccionComentarios":{
+	top:0,
+	height: '100%'
+},
+"#lblTandas":{
+	top: 5,
+	left: 10,
+	textAlign: 'left',
+	font:{
+		fontSize: 22
+	},
+	color: '#FF3300',
+	width: Ti.UI.SIZE,
+	height: 60
+},
+"#tblTandas":{
+	top: 70
+},
+"#btnverCometarios":{
+	backgroundImage:'/images/comentario.png',
+	width: 50,
+	height: 50
+},"#verTrailer":{
+	backgroundImage:'/images/trailer.png',
+	width: 60,
+	height: 60
+},"#btnCompartir":{
+	backgroundImage:'/images/compartir.png',
+	width: 60,
+	height: 60
+}
+
+

@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="detalleDeTeatro" modelId="" title="TeatrosYPeliculasRD" >
+		<Label class="title" id="nombre"/>
+		<Label class="telefono" id="telefono"/>
+		<Label class="subtitle" id="direccion"/>
+		<Label class="msgError" id="noHayTandas">Disculpe, este Teatro no tiene Obras en exhibición</Label>
+		<TableView id="tblObras"/> 
+	</Window>
+</Alloy>

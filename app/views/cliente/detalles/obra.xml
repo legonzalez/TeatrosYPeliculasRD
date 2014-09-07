@@ -1,0 +1,62 @@
+<Alloy>
+	<Window id="detalleDeObra" modelId="" tiCloudID="" title="TeatrosYPeliculasRD">
+		<ScrollableView id="scrollableContainer" showPagingControl="true">
+			<ScrollView id="scrollViewTop" >
+				<View class="detailHeader">
+					<ImageView class="left" id="leftImage"></ImageView>
+					<Label class="title" id="titulo">X-Men days of future past</Label>
+					<Label class="subtitle2" id="generos">Action, Comedy, Crime</Label>
+					<ImageView class="stars" id="stars"></ImageView>
+					<Label class="votos" id="votos">(3,200)</Label>
+				</View>
+				<View class="detailActions">
+					<Button id="verTandas">Tandas</Button>
+					<Button id="btnverCometarios"></Button>
+					<Button id="verTrailer"></Button>
+					<Button id="btnCompartir" onClick="showOptions" ></Button>
+					<OptionDialog id="dialog" title="Elige tu red social">           		
+		            	<Options>
+		                	<Option>Twitter</Option>
+		                	<Option>Facebook</Option>
+		            	</Options>
+        			</OptionDialog>
+				</View>
+				<View class="detailDescription">
+					<Label class="lblSinopsis">Sinopsis</Label>
+					<TextArea id="sinopsis" borderWidth="2" borderColor="#bbb" editable="false" borderRadius="5"
+					color="#888" textAlign="left" value="A raíz de un desastre que cambió el mundo, los crecientes y cambiantes genéticamente simios se encuentran en un punto crítico con la raza humana."/>
+				</View>
+			</ScrollView>
+			<View id="seccionComentarios">
+				<View id="nuevoComentarioVisitante">
+					<Label id="lblMsjVisitante">Regístrate para compartir tus comentarios y opiniones de sobre esta Obra</Label>
+					<Button class="btnVerde" id="btnLoginFromComentarios">Login</Button>
+					<Button class="btnVerde" id="btnRegistrarteFromComentarios">Registrarte</Button>
+					<Label id = "lblComentariosBottom" class="lblComentarios">Comentarios</Label>
+				</View>
+				<View id="nuevoComentarioUsuario">
+					<Label id="lblComentariosTop" class="lblComentarios">Comentarios</Label>
+					<Label id="lblNombreUsuario">Nombre_Usuario</Label>
+					<TextArea id="txtComentario" borderWidth="2" borderColor="#bbb" borderRadius="5"
+					color="#888" textAlign="left" maxLength="140"/>
+					<Button class="btnEnviar" id="btnComentar">Enviar</Button>
+					<Picker id="votacion" selectionIndicator="true" useSpinner="false">
+							<Row title="Puntuacion"/>
+							<Row title="1"/>
+							<Row title="2"/>
+							<Row title="3"/>
+							<Row title="4"/>
+							<Row title="5"/>
+					</Picker>
+					<Button class="btnEnviar" id="btnNuevoComentario">Comentar</Button>
+					<Button  id="btnVerDetalle">Ver Detalle</Button>
+				</View>
+				<TableView id="tblComentarios"></TableView>
+			</View>
+			<View id="seccionTandas">
+				<Label id="lblTandas">Funciones</Label>
+				<TableView id="tblTandas"></TableView>
+			</View>
+		</ScrollableView>
+	</Window>
+</Alloy>

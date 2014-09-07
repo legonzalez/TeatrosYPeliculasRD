@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="login" modelId="" >
+		<Label class="titulo" id="lblTitulo">Login</Label>
+		<View class="campo" id ="campoUsuario">
+			<Label class="lbl" > Usuario:</Label>
+			<TextField class="txt" id="txtUsuario"></TextField>
+		</View>
+		<View class="campo" id ="campoClave">
+			<Label class="lbl"> Clave:</Label>
+			<TextField class="txt" id="txtClave" passwordMask="true"></TextField>
+		</View>
+		<View class="campo" id ="campoBtns">
+			<Button id="btnLogin">Login</Button>
+		</View>
+	</Window>
+</Alloy>

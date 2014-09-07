@@ -1,0 +1,76 @@
+".row": {
+	height:105
+},
+".title": {
+	font:{
+		fontSize:12,
+		fontWeight:'bold'
+	},
+	color:'black',
+	top:5,
+	left:10,
+	height:Ti.UI.SIZE
+},
+"Label": {
+	font:{
+		fontSize:10,
+	},
+	color:'black'	
+},
+"#tblTandas":{
+	top:25,
+	left:10,
+	layout:"vertical",
+	height:"70%",
+	width:"90%"
+},
+"#tblTandasHeader":{
+	height:"30%",
+	width:"100%",
+	layout:"horizontal",
+	backgroundColor:"#707070"
+},
+"#tblTandasContenido":{
+	height:"80%",
+	width:"100%",
+	layout:"horizontal",
+	backgroundColor:"#FF3333"
+	
+},
+".tblTandasColunma":{
+	top:5,
+	height:"90%",
+	width:"14%"
+}
+
+
+
+/*
+"#diaLun": {
+	top:25,
+	left:10
+},
+"#diaMar": {
+	top:35,
+	left:10
+},
+"#diaMier": {
+	top:45,
+	left:10
+},
+"#diaJue": {
+	top:55,
+	left:10
+},
+"#diaVie": {
+	top:65,
+	left:10
+},
+"#diaSab": {
+	top:75,
+	left:10	
+},
+"#diaDom": {
+	top:85,
+	left:10,
+}*/

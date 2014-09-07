@@ -1,0 +1,15 @@
+<Alloy>
+	<TableViewRow modelId="" class="row" id="filaPelicula">
+		<ImageView class="left" id="leftImage" image="/images/portadas/default.jpg"/>
+		<Label class="title" id="titulo">Hércules. El origen de la leyenda</Label>
+		<View id="tblTandas" layout="vertical">
+			<View class="rowTanda"><Label class="tandaDia">Lun.</Label><Label id="lun"/></View>
+			<View class="rowTanda"><Label class="tandaDia">Mar.</Label><Label id="mar"/></View>
+			<View class="rowTanda"><Label class="tandaDia">Mier.</Label><Label id="mier"/></View>
+			<View class="rowTanda"><Label class="tandaDia">Jue.</Label><Label id="jue"/></View>
+			<View class="rowTanda"><Label class="tandaDia">Vie.</Label><Label id="vie"/></View>
+			<View class="rowTanda"><Label class="tandaDia">Sab.</Label><Label id="sab"/></View>
+			<View class="rowTanda"><Label class="tandaDia">Dom.</Label><Label id="dom"/></View>
+		</View>
+	</TableViewRow>
+</Alloy>

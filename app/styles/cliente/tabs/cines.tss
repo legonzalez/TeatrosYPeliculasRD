@@ -1,0 +1,6 @@
+"#tblCines": {
+	width:'90%',
+	height:'85%',
+	top:45,
+	backgroundColor:'transparent'
+}

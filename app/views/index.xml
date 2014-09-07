@@ -1,0 +1,8 @@
+<Alloy>
+	<TabGroup id="mainTabGroup">
+		<Require src="cliente/tabs/obras"></Require>	
+		<Require src="cliente/tabs/teatros"></Require>	
+		<Require src="cliente/tabs/peliculas"></Require>
+		<Require src="cliente/tabs/cines"></Require>
+	</TabGroup>
+</Alloy>

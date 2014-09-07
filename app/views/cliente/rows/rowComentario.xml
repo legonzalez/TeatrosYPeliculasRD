@@ -1,0 +1,7 @@
+<Alloy>
+	<TableViewRow class="row" id="filaComentario">
+		<Label id="nombreUsuario"/>
+		<Label id="fecha"/>
+		<Label id="comentario"/>
+	</TableViewRow>
+</Alloy>

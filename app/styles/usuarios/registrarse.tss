@@ -1,0 +1,53 @@
+"#scrollViewTop":{
+	top:0,
+	showVerticalScrollIndicator:"true", 
+	height: '100%',
+    contentHeight:'auto',
+	width:"100%"
+},
+".campo":{
+	width: "100%",
+	height:40,
+	layout:"horizontal",
+	left:20
+},
+".lbl":{
+	width: "40%",
+	height: Ti.UI.SIZE	
+},
+".txt":{
+	width: "60%",
+	height: Ti.UI.SIZE	
+},
+"Label": {
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'left'
+},
+"#campoUsuario":{
+	top:50
+},
+"#campoClave":{
+	top:90
+},
+"#campoReClave":{
+	top:130	
+},
+"#campoNombre":{
+	top:170	
+},
+"#campoApellido":{
+	top:210	
+},
+"#campoEmail":{
+	top:250	
+},
+"#campoBtns":{
+	top:290
+},
+"#lblTitulo":{
+	top:30
+}

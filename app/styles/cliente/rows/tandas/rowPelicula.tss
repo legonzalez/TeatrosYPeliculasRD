@@ -1,0 +1,67 @@
+".row": {
+	height:165
+},
+".left": {
+	height:130,
+	width:80,
+	top:30,
+	left:8
+},
+".title": {
+	font:{
+		fontSize:16,
+		fontWeight:'bold'
+	},
+	color:'black',
+	top:5,
+	left:8,
+	height:Ti.UI.SIZE
+},
+"Label": {
+	font:{
+		fontSize:12,
+		//fontWeight:'bold'
+	},
+	textAlign: 'left',
+	color:'black'
+},
+".tandaDia":{
+	font:{
+		fontWeight:'bold'
+	},
+	width:"28"
+},
+"#tblTandas":{
+	top:25,
+	left:95,
+	layout:"vertical",
+	height:"70%",
+	width:"85%"
+},
+".rowTanda":{
+	height:"14%",
+	width:"100%",
+	layout:"horizontal"	
+}/*,
+"#lun":{
+	left:5
+},
+"#mar":{
+	left:5
+},
+"#mier":{
+	left:5
+},
+"#jue":{
+	left:5
+},
+"#vie":{
+	left:5
+},
+"#sab":{
+	left:5
+},
+"#dom":{
+	left:5
+}
+*/
