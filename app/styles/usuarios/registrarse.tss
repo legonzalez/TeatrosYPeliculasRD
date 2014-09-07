@@ -9,7 +9,8 @@
 	width: "100%",
 	height:40,
 	layout:"horizontal",
-	left:20
+	left:20,
+	color: "#000"
 },
 ".lbl":{
 	width: "40%",
@@ -17,7 +18,8 @@
 },
 ".txt":{
 	width: "60%",
-	height: Ti.UI.SIZE	
+	height: Ti.UI.SIZE,
+	color: "#000"
 },
 "Label": {
 	color: "#000",
